@@ -1,0 +1,359 @@
+@import url(http://fonts.googleapis.com/css?family=Merienda:400,700); /*--- Nav Font --*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700); /*--- Body Font --*/
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Quicksand;
+    background: #FFFAEF;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 1%;
+    font-family: Merienda;
+}
+
+nav ul {
+    background-color: antiquewhite;
+    height: 40px;
+}
+
+nav li{
+    float: left;
+    margin-left: 9%;
+    list-style-type: none;
+    margin-top: 0.5%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main-banner img{
+    width: 100%;
+}
+
+#be {
+    margin: 3% 0;
+}
+
+#be li {
+    list-style-type: none;
+    float: left;
+    width: 22%;
+    margin: 1% 4%;
+    text-align: center;
+    padding: 1%;
+}
+
+#be i {
+    font-size: 90px;
+    margin-bottom: 1%;
+    color: #F0A831;
+}
+
+#be h3 {
+    font-size: 26px;
+    color: #99BEAB;
+    font-family: Shadows Into Light Two;
+    margin-bottom: 4%;
+}
+
+#be p {
+    font-weight: bold;
+}
+
+#be:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#welcome {
+    margin: 6% 0;
+    background: url("http://www.w3newbie.com/wp-content/uploads/yoga_mountains.png") no-repeat right;
+    padding-bottom: 10%;
+}
+
+#welcome h2{
+    font-family: Shadows Into Light Two;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#welcome p {
+    width: 55%;
+    margin-top: 5%;
+    font-size: 17px;
+    float: left;
+}
+
+#welcome #advance {
+    color: #99C8B3;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: Shadows Into Light Two;
+    letter-spacing: 3px;
+}
+
+#welcome:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#activityes li {
+    float: left;
+    width: 30%;
+    list-style-type: none;
+    text-align: center;
+}
+
+#activityes li:nth-child(2) {
+    margin: 0 5%;
+}
+
+#activityes img {
+    width: 100%;
+}
+
+#activityes:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#activityes h3 {
+    font-family: Shadows Into Light Two;
+    margin-bottom: 2%;
+}
+
+#activityes img {
+    margin-bottom: 5%;
+}
+
+#activityes:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.classes{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 2px solid #F0E5C7;
+}
+
+.classes p {
+    font-weight: bold;
+    font-size: 20px;
+    width: 740px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+.classes a {
+    margin-left: 12%;
+    color: #fff;
+    text-decoration: none;
+    padding: 1% 3%;
+    background: #EFA833;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+footer {
+   background: #FDECBB;
+   margin-top: 4%;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+    margin: 0 6%;
+}
+
+footer li:nth-child(2) {
+    width: 40%;
+}
+
+footer li h3 {
+    margin-top: 3%;
+    font-family: Shadows Into Light Two;
+    font-size: 22px;
+    margin-bottom: 6%;
+    text-decoration: underline;
+}
+
+footer .first .phone {
+    display: block;
+    font-weight: bold;
+    margin: 1% 0 7%;
+}
+
+footer .first .yogi {
+    margin-bottom: 20%;
+}
+
+footer .first a {
+    font-size: 35px;
+    color: #E18D48;
+    margin: 0 3%;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width:1120px) {
+    .classes p {
+        text-align: center;
+        margin-left: 15%;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        width: 78%;
+    }
+    
+    .classes a {
+        margin-left: 45%;
+    }
+}
+
+@media screen and (max-width:919px) {
+    nav li a{
+        font-size: 15px;
+    }
+    
+    #welcome {
+        background-size: 40%;
+        background-position: 95% 30%
+    }
+}
+
+@media screen and (max-width:695px) {
+    nav li a {
+        font-size: 12px;
+    }
+    
+    #activityes li {
+        width: 80%;
+        margin: 5% 9% !important;
+    }
+    
+    .classes a {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width:560px) {
+    nav li {
+        margin: 0 3%;
+    }
+    
+    #be li {
+        width: 80%;
+        margin: 2% 9%;
+    }
+    
+    footer li {
+        width: 80%;
+        margin: 2% 6%;
+    }
+    
+    footer li:nth-child(2) {
+        margin-left: 25%;
+    }
+    
+    #welcome{
+        background: none;
+    }
+    
+    #welcome p {
+        width: 80%;
+        margin: 2% 8%;
+    }
+    
+    footer li:nth-child(2) {
+        width: 80%;
+        margin: 0 9%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .classes a {
+        margin-left: 30%;
+    }
+    
+    nav li {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .wrapper {
+        width: 100%;
+    }
+    
+    header {
+        padding: 0;
+    }
+    
+    nav a {
+        color: #999;
+        padding: 7px;
+        display: block;
+        border-top: 1px solid #000;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    nav ul {
+        height: 0;
+        overflow: hidden;
+    }
+    
+    #burguer-nav {
+        width: 100%;
+        background: url(img/hamburger-nav.png) no-repeat 98%;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    nav ul.open {
+        height: auto;
+    }
+    
+    #logo img{
+        width: 90%;
+    }
+    
+    .classes p {
+        font-size: 17px;
+    }
+    
+    .classes a {
+        margin-left: 27%;
+    }
+    
+}

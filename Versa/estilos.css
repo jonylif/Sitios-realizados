@@ -1,0 +1,193 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Lato;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #456C71;
+    z-index: 1030;
+}
+
+#logo {
+    float: left;
+    font-size: 32px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    margin-top: 2%;
+    margin-right: -1%;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.arrow {
+    position: absolute;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main-banner {
+    background-image: url(images/banner.jpg);
+    background-position: 99% 49%;
+    width: 100%;
+    height: 510px;
+}
+
+#main-banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+    font-size: 36px;
+}
+
+#main-banner p {
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    color: #fff;
+    font-size: 19px;
+}
+
+#main-banner a {
+    position: absolute;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 35px;
+    border: 1px solid #fff;
+    border-radius: 19px;
+    background: #fff;
+}
+
+#main-banner .demos {
+    top: 45%;
+    left: 11%;
+}
+
+#main-banner .buy {
+    top: 45%;
+    left: 23%;
+}
+
+#main {
+    margin: 5% 0;
+}
+
+#main h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+#main li img {
+    width: 100%;
+}
+
+#main li {
+    width: 30%;
+    float: left;
+    list-style-type: none;
+    margin: 2% 0;
+    border: 1px solid #000;
+}
+
+#main li:nth-child(2) {
+    margin: 2% 4%;
+}
+
+#main li:nth-child(5) {
+    margin: 2% 4%;
+}
+
+#main:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#one-page h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+#one-page li img {
+    width: 100%;
+}
+
+#one-page li {
+    width: 30%;
+    float: left;
+    list-style-type: none;
+    margin: 2% 0;
+    border: 1px solid #000;
+}
+
+#one-page li:nth-child(2) {
+    margin: 2% 4%;
+}
+
+#one-page li:nth-child(5) {
+    margin: 2% 4%;
+}
+
+#one-page:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#azul {
+    background-color: #09C4F2;
+    color: #fff;
+    padding: 60px;
+    margin-top: 6%;
+}
+
+#azul p {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 28px;
+    line-height: 44px;
+}
+
+#copy p{
+	text-align: center;
+	padding: 15px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+}

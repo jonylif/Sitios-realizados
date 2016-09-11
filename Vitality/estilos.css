@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+header {
+    background: #000;
+}
+
+header nav {
+    color: #fff;
+    float: right;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#banner img {
+    width: 100%;
+    position: relative;
+}
+
+#banner {
+    max-height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#banner h1 {
+    color: #fff;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    font-size: 60px;
+}
+
+#banner hr {
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    width: 180px;
+    color: #000;
+}
+#banner .two {
+    position: absolute;
+    top: 205px;
+    left: 620px;
+    width: 180px;
+    color: orange;
+}
+
+#banner p {
+    position: absolute;
+    top: 255px;
+    left: 300px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#banner .demos {
+    position: absolute;
+    top: 325px;
+    left: 550px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+#banner .docu {
+    position: absolute;
+    top: 325px;
+    left: 700px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+#banner a {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+#banner a:hover {
+    background: #fff;
+    color: orange;
+    transition: 0.5s;
+}
+
+#fotos {
+    margin: 2% 0;
+    background: #fff;
+}
+
+#fotos li {
+    width: 24%;
+    float: left;
+    margin: 0 8.5% 4%;
+    list-style-type: none;
+}
+
+#fotos li:nth-child(2) {
+    margin: 0 -3%;
+}
+#fotos li:nth-child(5) {
+    margin: 0 -3%;
+}
+
+#fotos li img {
+    width: 100%;
+}
+
+#fotos li h2 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border-bottom: double red;
+    width: 25%;
+    margin: 0 auto;
+}
+
+#fotos li .ideal-for {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+
+#fotos li .agencies {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+#fotos li .businesses {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+#fotos li .consultants {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+#fotos li span {
+    color: darkgrey;
+}

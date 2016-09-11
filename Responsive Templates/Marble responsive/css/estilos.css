@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri;
+    background: #f7f7f7;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #ccc;
+    padding: 20px;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav li {
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main-banner img {
+    width: 100%;
+}
+
+#main-banner {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#selling-points {
+    margin: 60px 0;
+}
+
+#selling-points li {
+    float: left;
+    width: 23%;
+    padding: 1%;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+#selling-points img {
+    margin-bottom: 2px;
+}
+
+#selling-points h2 {
+    font-size: 19px;
+}
+
+#selling-points ul li p{
+    font-size: 15px;
+}
+
+#selling-points:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#works h2{
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#works li {
+    float: left;
+    list-style-type: none;
+    width: 31%;
+}
+
+#works img {
+    width: 100%;
+}
+
+#works li:nth-child(2) {
+    margin: 0 3%;
+}
+
+#works li h3 {
+    margin-top: 6px;
+}
+
+#works:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#works .tags {
+    color: darkgray;
+    margin-bottom: 2%;
+    font-size: 14px;
+}
+
+#works p {
+    line-height: 1.6em;
+}
+
+#quote {
+    margin-top: 40px;
+    width: 60%;
+    padding: 40px 20%;
+    color: #4e4e4e;
+    text-align: center;
+    background: url(../img/quote.png) no-repeat center 10px;
+    background-color: #efefef;
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer {
+    background: #202020;
+    color: #fff;
+}
+
+footer ul {
+    float: left;
+    list-style-type: none;
+    width: 25%;
+}
+
+footer li {
+    width: 80%;
+    margin-top: 20px;
+    color: #aaa;
+}
+
+footer h4 {
+    color: #555;
+    font-size: 18px;
+}
+
+footer .tw {
+    padding-left: 30px;
+    background: url(../img/icon_twitter.png) no-repeat left 3px;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#copyright {
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: 2px solid #333;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:960px){
+    #selling-points li {
+        width: 40%;
+        padding: 0 5%;
+        margin: 20px 0;
+    }
+    
+    footer ul {
+        width: 45%;
+    }
+    
+    footer ul:nth-child(odd) {
+        clear: both;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header nav {
+        float: none;
+    }
+    
+    header nav li {
+        margin-left: 0;
+        text-align: center;
+        font-size: 14px;
+        width: 19%;
+    }
+    
+    header .logo {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #works h2 {
+        text-align: center;
+    }
+    
+    #works li {
+        width: 60%;
+        margin: 20px 22% !important;
+    }
+      
+}
+
+@media screen and (max-width:480px) {
+    #selling-points li {
+        width: 80%;
+        padding: 0 10%;
+        margin: 20px 0;
+    }
+    
+    #works li {
+        width: 80%;
+        margin: 20px 10% !important;
+    }
+    
+    #quote {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    footer ul {
+        width: 100%;
+        border-top: 2px solid #333;
+        margin: 10px 0;  
+    }
+    
+    header nav li {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    header nav {
+        background: #555;
+    }
+    
+    header .wrapper {
+        width: 100%;
+    }
+    
+    header {
+        padding: 0;
+    }
+    
+    header nav a {
+        color: #999;
+        padding: 10px;
+        display: block;
+        border-top: 1px solid #4f4f4f;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    #burguer-nav {
+        width: 100%;
+        background: url(../img/hamburger-nav.png) no-repeat 98%;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    header nav ul {
+        height: 0;
+        overflow: hidden;
+    }
+    
+    header nav ul.open {
+        height: auto;
+    }
+}
