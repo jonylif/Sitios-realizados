@@ -1,0 +1,315 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:700';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: url(images/background.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+#logo {
+    float: left;
+    margin-top: 2%;
+}
+
+nav {
+    float: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav li {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+    margin-top: 6%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+
+span {
+    font-weight: bold;
+    font-size: 59px;
+    letter-spacing: 3px;
+    margin-left: -32px;
+}
+
+header p {
+    font-family: 'Raleway', sans-serif;
+    width: 56%;
+    margin: 0 auto;
+    margin-top: 10%;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2;
+    text-align: center;
+}
+
+.links {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.links li {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.learn {
+    background: #36c4c5;
+}
+
+.down {
+    background: #F42257;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#icons {
+    margin: 8% 0;
+}
+
+#icons li {
+    list-style-type: none;
+    float: left;
+    width: 28%;
+    margin: 0 2%;
+    text-align: center;
+}
+
+#icons i {
+    font-size: 80px;
+    margin-bottom: 2%;
+    color: #616161;
+}
+
+#icons h3 {
+    margin-bottom: 4%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#icons p {
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: 'Raleway-Regular', sans-serif; 
+}
+
+#icons:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#landscape {
+    margin: 2% 0;
+    background: url(images/background%20landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.info {
+    width: 30%;
+    float: right;
+    padding: 50px 50px;
+    background-color: #79B4D5;
+    opacity: 0.5;
+    text-align: left;
+    margin-right: 10%;
+    height: 400px;
+}
+
+.info li {
+    list-style-type: none;
+}
+
+.info h3 {
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+
+.info h4 {
+    margin-bottom: 4%;
+    font-size: 19px;
+}
+
+.info p {
+    line-height: 1.6em;
+    font-size: 15px;
+    margin-bottom: 4%;
+}
+
+.cuadritos {
+    width: 370px;
+    margin-top: 12%;
+}
+
+.cuadritos li {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+    text-align: center;
+    padding: 5%;
+    border: 1px solid #fff;
+}
+
+.cuadritos h5 {
+    font-size: 20px;
+    padding: 14px 15px;
+}
+
+.cuadritos p {
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+#bici img {
+    float: right;
+    width: 40%;
+   
+}
+
+#bici h2 {
+    font-size: 31px;
+    margin-top: 9%;
+}
+
+#bici ul {
+    float: left;
+    width: 55%;
+}
+
+#bici li {
+    list-style-type: none;
+}
+
+#bici h2 {
+    width: 73%;
+    font-family: 'Roboto Slab', serif;
+    color: #B5B5B5;
+    letter-spacing: 1px;
+    font-size: 34px;
+    margin-bottom: 4%;
+}
+
+#bici p {
+    color: #626262;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 2%;
+}
+
+#bici a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(244, 34, 87);
+    padding: 15px 25px;
+    float: left;
+    font-size: 20px;
+}
+
+#bici a i {
+    margin-left: 5px;
+}
+
+#bici:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#companies {
+    margin: 5% 0;
+    border: 1px solid #ccc;
+    padding-bottom: 2%;
+}
+
+#companies li {
+    float: left;
+    list-style: none;
+    margin: 2% 4% 0;
+}
+
+#companies:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background: #ccc;
+    margin-top: -5%;
+    padding-bottom: 2%;
+}
+
+footer h2 {
+    margin-bottom: 5%;
+}
+
+footer ul {
+    float: right;
+    margin-right: -3%;
+    width: 450px;
+    margin-top: -4%;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    margin-left: 10%;
+    font-size: 30px;
+    padding: 1%;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+    
