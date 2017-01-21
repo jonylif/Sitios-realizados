@@ -1,0 +1,750 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+	width: 85%;
+	margin: auto;
+	max-width: 1280px;
+	overflow: hidden;
+}
+
+header {
+	background: url(../img/intro-bg.png);
+	background-size: cover;
+	height: 750px;
+}
+
+header .wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+header #logo {
+	color: #8DB53F;
+	font-weight: 700;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+#menu-bar {
+	display: none;
+}
+
+header label {
+	display: none;
+	color: transparent;
+}
+
+header nav {
+	margin-top: 30px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+.wrapper-title {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 140px 0;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 150px;
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	margin: 0;
+}
+
+.title p {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+.title a {
+	background: #72A411;
+	padding: 15px 35px;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* -------- --------- OUR RESTAURANT -------- ------- */
+
+#our-restaurant {
+	padding: 90px 0;
+}
+
+#our-restaurant .wrapper {
+	width: 1200px;
+	display: flex;
+}
+
+.text {
+	margin-left: 120px;
+	width: 600px;
+}
+
+.text h2 {
+	font-weight: 600;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	width: 280px;
+	border-bottom: 1px solid #8EB640;
+	font-size: 30px;
+}
+
+.text p {
+	font-weight: 300;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.text h3 {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+/* ------ ------ MENU INTRO ------- ----- */
+
+#menuintro {
+	background: url(../img/menu-bg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	text-align: center;
+}
+
+#menuintro h2 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #8EB640;
+	color: #fff;
+	padding-top: 40px;
+	width: 120px;
+	margin: auto;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+#menuintro p {
+	font-weight: 400;
+	margin-bottom: 50px;
+	color: #D0D0B2;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+/* ----- ----- MENU ------- ------ */
+
+#menu {
+	padding: 60px 0;
+}
+
+#menu .wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 75%;
+}
+
+#menu .type {
+	width: 45%;
+	margin-bottom: 30px;
+}
+
+#menu h3 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #8EB640;
+	color: #000;
+	padding-top: 40px;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.type ul {
+	list-style: none;
+}
+
+.type ul li:nth-child(1) {
+	font-weight: 500;
+	border-bottom: 1px dashed #D5D5D5;
+	color: #555555;
+}
+
+.type ul li:nth-child(2) {
+	float: right;
+	margin-top: -20px;
+	font-weight: 500;
+	color: #555555;
+}
+
+.type ul li:nth-child(3) {
+	font-style: italic;
+	font-weight: 200;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+/* ------ ------ GALLERY INTRO ------- ----- */
+
+#gallery-intro {
+	background: url(../img/gallery-bg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	text-align: center;
+}
+
+#gallery-intro .wrapper {
+	text-align: center;
+}
+
+#gallery-intro h2 {
+	color: #fff;
+	padding-top: 40px;
+	width: 120px;
+	margin: auto;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+#gallery-intro .divider {
+  display: inline-block;
+  margin-left: 25px;
+  width: 80px;
+  height: 2px;
+  background-color: #8EB640;
+}
+
+#gallery-intro p {
+	font-weight: 400;
+	margin-bottom: 50px;
+	color: #D0D0B2;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+/* ------ ------- GALLERY ------- ------ */
+
+#gallery {
+	padding: 120px 0;
+}
+
+#gallery .wrapper-fotos {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#gallery .wrapper-fotos .foto {
+	width: 30%;
+	margin: 20px 0;
+	outline: 2px solid rgba(255, 255, 255, 0.6);
+    outline-offset: -9px;
+}
+
+#gallery .wrapper-fotos .foto img {
+	width: 100%;
+
+}
+
+/* ---- -------- CHEFS ------- ------ */
+
+#chefs {
+	padding: 90px 0;
+	background: url(../img/team-bg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#chefs .wrapper {
+	text-align: center;
+}
+
+#chefs h2 {
+	padding-bottom: 10px;
+	color: #fff;
+	padding-top: 40px;
+	width: 320px;
+	margin: auto;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+#chefs .divider {
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background-color: white;
+}
+
+#chefs p {
+	font-weight: 400;
+	margin-bottom: 50px;
+	color: #D0D0B2;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 80px;
+}
+
+.wrapper-chefs {
+	display: flex;
+	justify-content: space-around;
+}
+
+.wrapper-chefs ul {
+	list-style: none;
+	width: 23%;
+}
+
+.wrapper-chefs ul li:nth-child(2) {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.wrapper-chefs ul li:nth-child(3) {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+/* ------- ------- RESERVATION ------- -------- */
+
+#reserv {
+	padding: 80px 0;
+	background: #8EB640;
+	text-align: center;
+}
+
+#reserv p {
+	font-size: 35px;
+	color: #fff;
+}
+
+/* ------- -------- CONTACT -------- ------- */
+
+#form {
+	padding: 60px 0;
+	background: #F6F6F6;
+}
+
+#form .wrapper {
+	text-align: center;
+}
+
+#form h2 {
+	padding-bottom: 4px;
+	color: #000;
+	padding-top: 40px;
+	width: 320px;
+	margin: auto;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+#form p {
+	color: #777EA6;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+#form .divider {
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background-color: #8EB640;
+}
+
+.formu {
+	width: 80%;
+	margin: auto;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.formu input[type="text"] {
+	width: 49%;
+	margin-bottom: 20px;
+	padding: 8px 10px;
+	border: 0;
+	border: 1px solid #DDDDDD;
+}
+
+.formu textarea {
+	width: 100%;
+	height: 90px;
+	padding: 8px 10px;
+	border: 0;
+	border: 1px solid #DDDDDD;
+}
+
+.formu .btn {
+	border: 0;
+	padding: 15px 20px;
+	background: #72A411;
+	color: #fff;
+	margin: auto;
+	margin-top: 30px;
+}
+
+/* ------ ------- FOOTER ------- ------- */
+
+.info {
+	background: #262626;
+}
+
+.info .wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info ul {
+	list-style: none;
+	padding: 70px 0;
+	text-align: center;
+	color: #CFCFCF;
+}
+
+.info li:nth-child(1) {
+	color: #8EB63A;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.info li:nth-child(2) {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.social {
+	background: #88AF3E;
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+}
+
+.social .wrapper {
+	/*display: flex;
+	justify-content: center;*/
+}
+
+.social ul {
+	margin-top: 20px;
+	margin-left: -50px;
+	margin-bottom: 50px;
+}
+
+.social ul li {
+	display: inline-block;
+	font-size: 27px;
+	margin-left: 60px;
+}
+
+.social ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.social p {
+	font-size: 15px;
+	color: #E6EFD5;
+}
+
+/* ----- ------ MEDIA QUERIES ------ ------- */
+
+@media screen and (max-width: 1250px) {
+	.text {
+	margin-left: 40px;
+	width: 500px;
+}
+
+.text h2 {
+	margin-bottom: 20px;
+}
+
+.text h3 {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.foto img{
+	width: 80%;
+	margin-left: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 1100px) {
+	.text {
+	margin-left: 30px;
+	width: 400px;
+}
+
+.text h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.text p {
+	font-size: 15px;
+}
+
+.text h3 {
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 18;
+}
+
+.wrapper-chefs {
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.wrapper-chefs ul {
+	width: 80%;
+	margin: 50px 0;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+	.text {
+	margin-left: 30px;
+	width: 300px;
+}
+
+.text h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.text p {
+	font-size: 15px;
+}
+
+.text h3 {
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 18;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+#our-restaurant .wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.text {
+	width: 80%;
+	margin: auto;
+}
+
+.text h2 {
+	width: 280px;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.foto {
+	width: 100%;
+	margin: auto;
+}
+
+.foto img {
+	width: 60%;
+}
+
+#menu .type {
+	width: 80%;
+	margin: auto;
+}
+
+#gallery .wrapper-fotos .foto {
+	width: 40%;
+}
+
+.info .wrapper {
+	justify-content: space-between;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+.foto img {
+	width: 90%;
+}
+
+.formu {
+	width: 100%;
+}
+
+.formu input[type="text"] {
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+	.fa-bars {
+	font-size: 35px;
+	color: #fff;
+	margin: 15px;
+}
+
+	header nav {
+		position: absolute;
+		width: 100%;
+		height: 250px;
+		background: #262626;
+		top: 50px;
+		left: 0;
+		transition: all 0.5s;
+		transform: translateY(-150%);
+	}
+
+	header nav a {
+		display: block;
+		height: 50px;
+		padding: 15px;
+	}
+
+	header nav a:hover {
+		color: #88AF3E;
+	}
+
+	#menu-bar:checked ~ nav {
+		transform: translateY(0%);
+	}
+
+	.info .wrapper {
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+	.info ul {
+		width: 80%;
+		padding: 30px 0;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	#menuintro h2 {
+	font-size: 25px;
+}
+
+#menuintro p {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+#menu .type {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#menu h3 {
+	font-size: 19px;
+}
+
+#gallery-intro h2 {
+	color: #fff;
+	padding-top: 40px;
+	width: 120px;
+	margin: auto;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+#gallery-intro .divider {
+  margin-left: 0;
+}
+
+#gallery-intro p {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+#gallery {
+	padding: 40px 0;
+}
+
+	#gallery .wrapper-fotos .foto {
+	width: 100%;
+}
+
+#chefs h2 {
+	font-size: 25px;
+}
+
+#chefs p {
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+#chefs .wrapper-chefs img {
+	width: 70%;
+}
+
+.wrapper-chefs ul li:nth-child(2) {
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.wrapper-chefs ul li:nth-child(3) {
+	font-size: 14px;
+	font-weight: 200;
+}
+
+#reserv p {
+	font-size: 19px;
+}
+
+#form h2 {
+	font-size: 25px;
+}
+
+#form p {
+	font-size: 15px;
+}
+
+
+}
