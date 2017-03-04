@@ -651,8 +651,15 @@ footer .yo {
 	width: 70%;
 }
 
+#suscribe input[type="text"] {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid #fff;
+	width: 100%;
+}
+
 #suscribe input[type="submit"] {
-	width: 20%;
+	width: 50%;
 	margin-top: 15px;
 }
 
