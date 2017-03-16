@@ -664,6 +664,14 @@ header nav a {
 }
 
 @media screen and (max-width: 480px) {
+	.title h1 {
+	font-size: 80px;
+}
+
+.title p {
+	font-size: 20px;
+}
+
 	#menuintro h2 {
 	font-size: 25px;
 }
