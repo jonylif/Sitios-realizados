@@ -1,0 +1,717 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 85%;
+	margin: auto;
+	max-width: 1280px;
+	overflow: hidden;
+}
+
+#menu-bar, label {
+	display: none;
+}
+
+header {
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/hero-bg.jpg) fixed center center;
+	background-size: cover;
+	color: #fff;
+}
+
+.wrapper-title {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 30vh 0;
+	text-align: center;
+}
+
+.title h1 {
+	font-style: italic;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.title h3 {
+	color: #999;
+	font-weight: 400;
+	font-size: 35px;
+	margin-top: -20px;
+}
+
+header .started {
+	background: #03C4EB;
+	border: 1px solid transparent;
+	color: #fff;
+	padding: 10px 25px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin: 20px 10px;
+	transition: 0.3s;
+}
+
+header .started:hover {
+	background: transparent;
+	border: 1px solid #fff;
+	transition: 0.3s;
+}
+
+header .services {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 25px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin: 20px 10px;
+	transition: 0.3s;
+}
+
+header .services:hover {
+	background: #03C4EB;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+
+.menu {
+	transition: all 1s;
+	background: #111111;
+	padding: 20px 0;
+}
+
+.menu .navlogo {
+	width: 200px;
+	float: left;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.menu li {
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.menu li a {
+	color: #fff;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+/* ------ ------ ABOUT US -------- -------- */
+
+#about {
+	padding: 90px 0;
+}
+
+#about h2, #about p, #services h2, #services p, #portfolio h2, #portfolio p, #testimonials h2, #testimonials p, #team h2, #team p, #contact h2, #contact p {
+	text-align: center;
+}
+
+.divider {
+	background-color: #03C4EB;
+	height: 3px;
+	width: 50px;
+	margin: auto;
+}
+
+#about p, #services p, #portfolio p, #testimonials p, #team p, #contact p {
+	font-size: 15px;
+}
+
+#about .foto {
+	width: 1500px;
+}
+
+#about img {
+	width: 100%;
+}
+
+#about .content {
+	display: flex;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#about .content h3 {
+	font-size: 25px;
+}
+
+#about .content p {
+	color: #666;
+	width: 90%;
+	margin: auto;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+/* ------ ------ SERVICES ------- ------- */
+
+#services {
+	padding: 90px 0;
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),  url(../img/services-bg.jpg);
+}
+
+#services .wrapper-services {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.wrapper-services ul {
+	list-style: none;
+	width: 350px;
+	margin-bottom: 60px;
+}
+
+.wrapper-services ul li i {
+	background: #03C4EB;
+	font-size: 27px;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	padding-left: 15px;
+}
+
+.wrapper-services ul li:nth-child(1) {
+	float: left;
+	margin-right: 25px;
+	height: 120px;
+}
+
+.wrapper-services ul li:nth-child(2) {
+	color: #111;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+.wrapper-services ul li:nth-child(3) {
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+}
+
+/* ------ ------ SUSCRIBE ------- ------- */
+
+#suscribe {
+	padding: 40px 0;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/subscribe-bg.jpg) fixed center center;
+	color: #fff;
+}
+
+#suscribe .wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#suscribe .suscribe {
+	font-size: 35px;
+}
+
+#suscribe a {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 25px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin: 20px 10px;
+	transition: 0.3s;
+}
+
+#suscribe a:hover {
+	background: #03C4EB;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+
+/* ----- ------- PORTFOLIO ------- ------- */
+
+#portfolio {
+	padding: 90px 0;
+}
+
+.wrapper-portfolio {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.wrapper-portfolio .item {
+	width: 24%;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.wrapper-portfolio .item img {
+	width: 100%;
+}
+
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5,
+.overlay6,
+.overlay7,
+.overlay8 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.overlay1 p,
+.overlay2 p,
+.overlay3 p,
+.overlay4 p,
+.overlay5 p,
+.overlay6 p,
+.overlay7 p,
+.overlay8 p {
+	margin-top: 15%;
+}
+
+.lorem, .portfolio {
+	position: relative;
+}
+
+.portfolio {
+	font-weight: 700;
+}
+
+/* ------ ------ TESTIMONIALS ------- ------- */
+
+#testimonials {
+	background: #F6F6F6;
+	padding: 90px 0;
+}
+
+.testi {
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.testi .seccion-foto {
+	text-align: center;
+}
+
+.testi .seccion-foto .foto {
+	width: 90%;
+	margin: auto;
+}
+
+.testi .seccion-foto .foto img {
+	width: 100%;
+	border-radius: 50%;
+	border: 6px solid #fff;
+}
+
+.testi .quote {
+	margin: -110px 30px 0 30px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.quoteleft {
+	float: left;
+}
+
+.quoteright {
+	float: right;
+	vertical-align: middle;
+}
+
+.quote p {
+	width: 100%;
+	font-style: italic;
+	line-height: 30px;
+	font-size: 17px !important;
+}
+
+.quote .left {
+	display: inline-block;
+	position: relative;
+	float: left;
+	left: -1%;
+}
+
+.quote .right {
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+	float: right;
+	left: -5%;
+	top: -30px;
+}
+
+.seccion-foto h3 {
+	color: #04C4EB;
+}
+
+/* ------ ------ TEAM ------- ------- */
+
+#team {
+	padding: 90px 0;
+}
+
+.wrapper-team {
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.wrapper-team ul {
+	list-style: none;
+	width: 23%;
+	text-align: center;
+}
+
+.wrapper-team ul img {
+	width: 100%;
+}
+
+.wrapper-team ul li:nth-child(2) {
+	margin-top: 10px;
+	font-weight: 700;
+	color: #666;
+}
+
+.wrapper-team ul li:nth-child(3) {
+	margin-top: 5px;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.wrapper-team ul li:nth-child(4) {
+	margin-top: 15px;
+	color: #b3b3b3;
+	font-size: 19px;
+}
+
+.wrapper-team ul li i {
+	margin: 0 5px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.wrapper-team ul li i:hover {
+	color: #03C4EB;
+	transition: 0.3s;
+}
+
+/* ------ ----- CONTACT US -------- ------- */
+
+#contact {
+	padding: 90px 0;
+	background: #F7F7F7;
+}
+
+.wrapper-contact {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.datos {
+	width: 40%;
+}
+
+.datos ul {
+	list-style: none;
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+.datos ul li:nth-child(1) {
+	float: left;
+	margin-right: 30px;
+	margin-top: -10px;
+	color: #03C4EB;
+	font-size: 35px;
+}
+
+.datos ul li:nth-child(2) {
+	font-size: 15px;
+}
+
+#mail {
+	margin-right: -10px;
+}
+
+.form {
+	width: 40%;
+}
+
+.form form {
+	display: flex;
+	flex-direction: column;
+}
+
+form input[type="text"],
+textarea {
+	padding: 10px 10px;
+	margin: 5px 0;
+	border: 0;
+	border: 1px solid #ccc;
+	font-size: 15px;
+}
+
+form input[type="submit"] {
+	border: 0;
+	background: #03C4EB;
+	color: #fff;
+	width: 160px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 10px 30px;
+	display: block;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background: #25D8FC;
+	transition: 0.3s;
+}
+
+/* ------ ------- FOOTER ------- -------- */
+
+footer {
+	background: #111111;
+	padding: 30px 0;
+	text-align: center;
+	color: #fff;
+}
+
+/* ------ ----- MEDIA QUERIES -------- ------- */
+
+@media screen and (max-width: 1080px) {
+	.fa-bars {
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	margin-top: 0px;
+}
+
+.menu ul {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	text-align: center;
+	background: #000;
+	width: 100%;
+	display: none;
+}
+
+.menu ul li {
+	display: block;
+	margin: 25px 0;
+}
+
+#about .content {
+	flex-direction: column;
+}
+
+#about .foto {
+	width: 80%;
+	margin: auto;
+}
+
+.wrapper-portfolio .item {
+	width: 34%;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.testi {
+	flex-direction: column;
+}
+
+.testi .seccion-foto .foto {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.testi .seccion-foto h3 {
+	margin-top: -40px;
+}
+
+.testi .quote {
+	margin: 15px 0;
+	padding: 20px;
+}
+
+.quote .right {
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+	float: right;
+	left: 0%;
+	top: 0px;
+}
+
+.wrapper-team ul {
+	width: 37%;
+	margin-bottom: 50px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.wrapper-title {
+	margin: 10vh 0;
+}
+
+	.menu .navlogo {
+	width: 100px;
+	float: left;
+}
+
+	#about p, #services p, #portfolio p, #testimonials p, #team p, #contact p {
+		line-height: 22px;
+	}
+
+	.wrapper-services ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+	.wrapper-portfolio .item {
+	width: 100%;
+}
+
+	.testi .seccion-foto .foto {
+	width: 40%;
+}
+
+	.wrapper-team ul {
+	width: 70%;
+	padding: 0;
+}
+
+	.wrapper-contact {
+	flex-direction: column;
+}
+
+.datos {
+	width: 100%;
+	margin: auto;
+}
+
+.datos ul li:nth-child(1) {
+	color: #03C4EB;
+	font-size: 35px;
+}
+
+.datos ul li:nth-child(2) {
+	width: 90%;
+	margin: auto;
+}
+
+.form {
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.title img {
+	width: 60%;
+}
+
+.title h2 {
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+.title h3 {
+	font-size: 19px;
+}
+
+#about .content p {
+	width: 100%;
+}
+
+#about img {
+	display: none;
+}
+
+	.wrapper-services ul {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.wrapper-services ul li:nth-child(1) {
+	float: left;
+	margin-right: 25px;
+	height: 150px;
+}
+
+#suscribe .suscribe {
+	font-size: 21px;
+}
+
+.testi .quote {
+	margin: 15px 0;
+	padding: 5px;
+}
+
+.testi .quote p {
+	font-size: 14px !important;
+}
+
+	.wrapper-team ul {
+	width: 100%;
+}
+
+}
+
+
+
+
+
