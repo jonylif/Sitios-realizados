@@ -20,6 +20,7 @@ a {
 
 #menu-bar, label {
 	display: none;
+	color: transparent;
 }
 
 header {
@@ -531,7 +532,7 @@ footer {
 	font-size: 30px;
 	color: #fff;
 	float: right;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 
 .menu ul {
@@ -600,6 +601,9 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+	.fa-bars {
+		margin-top: 0;
+	}
 
 	.wrapper-title {
 	margin: 10vh 0;
@@ -683,7 +687,7 @@ footer {
 
 	.wrapper-services ul {
 	padding: 0;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .wrapper-services ul li:nth-child(1) {
